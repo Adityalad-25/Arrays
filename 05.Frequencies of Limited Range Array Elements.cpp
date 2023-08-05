@@ -30,9 +30,9 @@ class Solution{
        }
        
        for(int i = 0;i<n;i++){
-           if(mp.find(i+1)!=mp.end())
+           if(mp.find(i+1)!=mp.end()) //ele found or present
            arr[i]=mp[i+1];
-           else
+           else //ele not found not present
            arr[i]=0;
        }
   }
