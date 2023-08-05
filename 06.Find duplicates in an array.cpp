@@ -29,15 +29,15 @@ class Solution{
     vector<int> duplicates(int arr[], int n) {
         
         vector<int> ans;
-        unordered_map<int, int> freqMap;
+        unordered_map<int, int> mp;
         
         for (int i = 0; i < n; i++) {
-            freqMap[arr[i]]++;
+            mp[arr[i]]++;
         }
         
-        for (auto kvp : freqMap) {
-            if (kvp.second > 1) {
-                ans.push_back(kvp.first);
+        for (auto x : mp) {
+            if (x.second > 1) {
+                ans.push_back(x.first);
             }
         }
         
