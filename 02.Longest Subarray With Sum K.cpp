@@ -1,5 +1,5 @@
 /* link -> https://www.codingninjas.com/studio/problems/longest-subarray-with-sum-k_6682399?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTab=0
-
+Two Pointer Approach
 Problem Statement:-
 You are given an array ‘A’ of size ‘N’ and an integer ‘K’. You need to print the length of the longest subarray of array ‘A’ whose sum = ‘K’.
 Example:
